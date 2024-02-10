@@ -6,23 +6,23 @@ Features.<br>
 ### 1. BankAccount 
    -- Class Attributes:<br>
    Account ID 
-   Balance 
+   Balance <br>
    -- Methods:<br>
-   Constructor:Two constructors available. The first sets the balance to a given value, and the second is a no-argument constructor setting the balance to 0. 
-   Setters and getters for accessing private data fields.
-   Withdraw: Allows the withdrawal of an amount if the balance is sufficient.
-   Deposit: Enables depositing an amount of money into the account. 
+   Constructor:Two constructors available. The first sets the balance to a given value, and the second is a no-argument constructor setting the balance to 0.<br>
+   Setters and getters for accessing private data fields.<br>
+   Withdraw: Allows the withdrawal of an amount if the balance is sufficient.<br>
+   Deposit: Enables depositing an amount of money into the account.<br>
 ### 2. SavingsBankAccount Class (Extends BankAccount) 
    -- Additional Attribute:  
    Minimum Balance (default value of 1000 L.E.).<br>
-   -- Additional Methods:  
-   Constructor: Sets the initial balance and minimum balance (initial balance must be >= minimum balance). 
-   Setters and getters for private data fields. 
-   Withdraw (Override): Permits withdrawal, ensuring the balance does not fall below the minimum balance. 
-   Deposit: Accepts deposits only if the amount is >= 100 L.E.
+   -- Additional Methods:<br>
+   Constructor: Sets the initial balance and minimum balance (initial balance must be >= minimum balance).<br>
+   Setters and getters for private data fields.<br>
+   Withdraw (Override): Permits withdrawal, ensuring the balance does not fall below the minimum balance.<br>
+   Deposit: Accepts deposits only if the amount is >= 100 L.E.<br>
 ### 3. Client Class
-   Holds basic client information, including name, address, and phone number. <br>
-   Contains a pointer to the client's bank account. <br>
+   Holds basic client information, including name, address, and phone number.<br>
+   Contains a pointer to the client's bank account.<br>
    An account also points to its owner.<br>
 ### 4. BankingApplication Class Functionality:
    Displays the main menu. Accepts user choices for operations.<br>
